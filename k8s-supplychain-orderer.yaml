@@ -31,7 +31,7 @@ spec:
             value: /var/hyperledger/config
           # Level of logging
           - name: FABRIC_LOGGING_SPEC
-            value: INFO
+            value: DEBUG
         volumeMounts:
         # This is pointing to the PVC
         - name: orderer-ledger
